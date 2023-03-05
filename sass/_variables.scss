@@ -1,4 +1,34 @@
-
 // ozgaruvchilar uchun
 
 // $--main-color: #fff;
+
+button.normal {
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+button.white {
+    padding: 11px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 2px solid #fff;
+    outline: none;
+    transition: 0.2s;
+}
+
+button.normal:hover {
+    color: #fff;
+    background-color: #088178;
+}
