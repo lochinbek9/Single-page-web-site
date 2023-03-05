@@ -1,0 +1,41 @@
+.banner--section {
+
+    &__container {
+        padding-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &__box {
+        margin-bottom: 20px;
+        padding: 30px;
+        background-image: url(../../img/banner/b7.jpg);
+        background-position: center;
+        background-size: cover;
+        min-width: 30%;
+        height: 30vh;
+    }
+
+    &__box:nth-child(2) {
+        background-image: url(../../img/banner/b4.jpg);
+    }
+
+
+    &__box:nth-child(3) {
+        background-image: url(../../img/banner/b18.jpg);
+    }
+
+    &__title {
+        color: #fff;
+        font-weight: 900;
+        font-size: 22px;
+    }
+
+    &__text {
+        color: #ec544e;
+        font-weight: 900;
+        font-size: 15px;
+    }
+
+}
