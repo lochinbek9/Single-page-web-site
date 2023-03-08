@@ -1,12 +1,15 @@
+.shop__hero {
+    background-image: url(../../img/banner/b1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .shop__hero--container {
     padding: 120px 0;
     display: flex;
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    background-image: url(../../img/banner/b1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .shop__hero--title {

@@ -32,3 +32,22 @@ button.normal:hover {
     color: #fff;
     background-color: #088178;
 }
+
+.site-btn {
+    color: #fff;
+    background-color: #088178;
+    padding: 11px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+.site-btn:hover {
+    color: #088178;
+    background-color: #fff;
+    border: #088178 solid 1px;
+}
